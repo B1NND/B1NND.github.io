@@ -50,27 +50,29 @@
     <div class="money">
        <h2><b>Расчёт стоимости</b></h2> 
          <h3><b>Тип сайта</b></h3>
-         <input type="radio" name="radio1" value="1"> Сайт визитка
-         <input type="radio" name="radio1" value="2"> Интернет магазин
-         <input type="radio" name="radio1" value="3"> Информационный сайт 
+         <select name="list1" id="list1"> 
+         <option value="opt1">Сайт визитка</option>
+         <option value="opt2">Интернет магазин</option>
+         <option value="opt3">Информационный сайт</option></select>
          <h3><b>Дизайн</b></h3>  
-         <input type="radio" name="radio2" value="4"> Деловой
-         <input type="radio" name="radio2" value="5"> Нейтральный
-         <input type="radio" name="radio2" value="6"> Неординарный
-         <h3><b>Адаптивность</b></h3>   
-         <input type="checkbox" name="check1" value="7"> Pc
-         <input type="checkbox" name="check1" value="8"> IOS
-         <input type="checkbox" name="check1" value="9"> ANDROID
+         <select name="list2" id="list2"> 
+         <option value="opt1">Деловой</option>
+         <option value="opt2">Нейтральный</option>
+         <option value="opt3">Неординарный</option></select>
+         <h3><b>Адаптивность</b></h3>  
+         <select name="list3" id="list3"> 
+         <option value="opt1">PC</option>
+         <option value="opt2">IOS</option>
+             <option value="opt3">Android</option></select>
           
          <br><span><b>Сроки</b> 0</span> 
          <br><span><b>Стоимость</b> 0</span> 
-      </div>
      <div class="stats">
         <h2><b>Немного статистики</b></h2>
-         <span>
-        120;                   4,600;          340;                    23;   
-    <br>Счастливых клиентов    Часов работы    Проектов закончено      Наград получено           
-         </span>   
+        <div>120 счастливых клиентов</div>
+        <div>4600 часов работы</div>     
+        <div>340 завершённых работ</div> 
+        <div>23 награды получены</div>   
      </div>
      <div class="comment">
          <h2><b>Отзывы</b></h2>
@@ -86,7 +88,7 @@
         <h2>Оставьте мне сообщение</h2>
         <input type="text" name="text_input" value="Введите имя и фамилию">
         <input type="text" name="text_input" value="E-mail"> <br>
-        <input type="text" name="text_input" value="Сообщение"> <br>
+        <textarea name="message" id="1" cols="30" rows="10">Сообщение</textarea> <br>
         <input type="submit" value="Отправить"> 
      </div>                      
 </body>
